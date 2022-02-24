@@ -1,0 +1,1252 @@
+{
+  "id": "75ef5eaa-7c9c-4b4c-be53-ffec6ae2dd4d",
+  "version": "2.0",
+  "name": "FoodPanda_HU",
+  "url": "https://www.foodpanda.com",
+  "tests": [{
+    "id": "26d6e456-ccd5-4958-82fc-a6f8bb32db38",
+    "name": "Get Auto location Test",
+    "commands": [{
+      "id": "823222bd-ca31-41b4-8e2a-1ae375dca191",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53331dbc-a8eb-46f6-8820-5a8c5b54a8ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e11ace19-f4f0-4f40-abc5-b287634ef491",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-tip:nth-child(7) > img",
+      "targets": [
+        ["css=.has-tip:nth-child(7) > img", "css:finder"],
+        ["xpath=//img[@alt='Pakistan']", "xpath:img"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]/img", "xpath:idRelative"],
+        ["xpath=//a[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d0978bf-5412-44ac-bb8c-4ad26e5c5aaa",
+      "comment": "",
+      "command": "click",
+      "target": "id=delivery-information-postal-index",
+      "targets": [
+        ["id=delivery-information-postal-index", "id"],
+        ["css=#delivery-information-postal-index", "css:finder"],
+        ["xpath=//input[@id='delivery-information-postal-index']", "xpath:attributes"],
+        ["xpath=//div[@id='address-search-container']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "710b3628-2226-4d74-853c-c6b617dfb574",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-form__button--full",
+      "targets": [
+        ["css=.restaurants-search-form__button--full", "css:finder"],
+        ["xpath=//form[@id='delivery-information-postal-index-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2cd8d3e-eff1-4b7f-b6b7-c4c1f3fd47a8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,167)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "74ba4a90-8285-4ef0-8a9e-c0c6cd4487ce",
+    "name": "delivery btn Test",
+    "commands": [{
+      "id": "9900d26e-e6b5-4866-8955-233caec7601c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e3f6003-2eca-42cb-a691-781ed820d8c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb2ec49e-fe26-4b09-b1fc-b6a28d9cc8e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-tip:nth-child(7) > img",
+      "targets": [
+        ["css=.has-tip:nth-child(7) > img", "css:finder"],
+        ["xpath=//img[@alt='Pakistan']", "xpath:img"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]/img", "xpath:idRelative"],
+        ["xpath=//a[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d718b6ab-4408-4c7f-a862-0d1982d95761",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-form__button--full",
+      "targets": [
+        ["css=.restaurants-search-form__button--full", "css:finder"],
+        ["xpath=//form[@id='delivery-information-postal-index-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10c801fc-1eff-45fa-95b3-c235333c6ec1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(3) img",
+      "targets": [
+        ["css=li:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='Pepsi Weekdays']", "xpath:img"],
+        ["xpath=//section[@id='campaign-carousel-react-root']/div/div[2]/ul/li[3]/a/img", "xpath:idRelative"],
+        ["xpath=//li[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2d65b5a-e1f2-4dcb-ba45-c1b02763d550",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-input",
+      "targets": [
+        ["css=.restaurants-search-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b093c8c1-d860-4866-99c4-e8faa54f3394",
+    "name": "view restaurant details test",
+    "commands": [{
+      "id": "8df82053-90ff-4199-9712-027fc203a578",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e2a3717-a690-4dd6-9706-aed3dd7ef81f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64213148-0d8e-4f7a-81bd-bb4d843ab9ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-tip:nth-child(7) > img",
+      "targets": [
+        ["css=.has-tip:nth-child(7) > img", "css:finder"],
+        ["xpath=//img[@alt='Pakistan']", "xpath:img"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]/img", "xpath:idRelative"],
+        ["xpath=//a[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5bc9f7d-3648-4df9-8f4f-f04696505c35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-form__button--full",
+      "targets": [
+        ["css=.restaurants-search-form__button--full", "css:finder"],
+        ["xpath=//form[@id='delivery-information-postal-index-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16cd1ad3-c5b3-40b0-8cfc-c454007538d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=KFC - Johar Town",
+      "targets": [
+        ["linkText=KFC - Johar Town", "linkText"],
+        ["css=.footer__popular:nth-child(1) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'KFC - Johar Town')]", "xpath:link"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[6]/div[3]/div/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.foodpanda.pk/restaurant/s9sn/kfc-johar-town')]", "xpath:href"],
+        ["xpath=//div/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KFC - Johar Town')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c8bf7d7-da43-4cfe-9a0e-be5a8c1bb00f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-white > .fl-interaction-primary",
+      "targets": [
+        ["css=.bg-white > .fl-interaction-primary", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dd36121-1a45-4c88-95ff-c626be9d0e8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vendor-info-link",
+      "targets": [
+        ["css=.vendor-info-link", "css:finder"],
+        ["xpath=//div[@id='vendor-details-root']/main/div/div/section/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Restaurant information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da45a76d-65d5-4bea-87bb-c58bfc1ba25a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box-flex:nth-child(2) > .cl-neutral-secondary:nth-child(1)",
+      "targets": [
+        ["css=.box-flex:nth-child(2) > .cl-neutral-secondary:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='about-panel']/div/div/ul/li[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/ul/li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Mon - Sun 12:00 am - 3:00 am')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d044dc7c-a2b6-43bb-8d81-dc3e8e814618",
+    "name": "search restaurant test",
+    "commands": [{
+      "id": "704aa28c-2a73-4b40-ae9f-89c83afaf201",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dad2817a-2b3f-4cd5-ab74-87efd4f7bc72",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37e40fb2-1834-4c34-94c6-206edbbceaba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-tip:nth-child(7) > img",
+      "targets": [
+        ["css=.has-tip:nth-child(7) > img", "css:finder"],
+        ["xpath=//img[@alt='Pakistan']", "xpath:img"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]/img", "xpath:idRelative"],
+        ["xpath=//a[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecd1f966-c2ab-45cf-93ee-9048d6493a43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-form__button--full",
+      "targets": [
+        ["css=.restaurants-search-form__button--full", "css:finder"],
+        ["xpath=//form[@id='delivery-information-postal-index-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9df67e9-ed7d-4d19-8039-4a63a5a73138",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-input",
+      "targets": [
+        ["css=.restaurants-search-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5ff43de-512f-4636-ac04-5f71ae12fdf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-autocomplete-item:nth-child(2) .f-14",
+      "targets": [
+        ["css=.search-autocomplete-item:nth-child(2) .f-14", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div[2]/li/button/p", "xpath:idRelative"],
+        ["xpath=//li/button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'dominos pizza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d59db4b8-603c-40b4-a210-35897a349422",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vendor-tile-wrapper:nth-child(1) .vendor-picture",
+      "targets": [
+        ["css=.vendor-tile-wrapper:nth-child(1) .vendor-picture", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[3]/section/ul/li/a/figure/div/picture/div", "xpath:idRelative"],
+        ["xpath=//picture/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b9d0d060-a39b-4e1a-b492-c3f701dbde10",
+    "name": "add to cart test",
+    "commands": [{
+      "id": "40084172-f06e-4d4c-a646-dce5620056a2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28a3a43c-603d-4293-b60d-2ef9d8d6dbb8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2da216b5-8b34-4775-b1ee-e9b16037d616",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.has-tip:nth-child(7)",
+      "targets": [
+        ["css=.has-tip:nth-child(7)", "css:finder"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.foodpanda.pk/')])[2]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5ca4970-022a-4807-975e-400953fea875",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.has-tip:nth-child(7)",
+      "targets": [
+        ["css=.has-tip:nth-child(7)", "css:finder"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.foodpanda.pk/')])[2]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7880df5f-30f1-498f-a68e-e2950967ce52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-tip:nth-child(7) > img",
+      "targets": [
+        ["css=.has-tip:nth-child(7) > img", "css:finder"],
+        ["xpath=//img[@alt='Pakistan']", "xpath:img"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]/img", "xpath:idRelative"],
+        ["xpath=//a[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fad44829-6f3f-46ce-9dd5-54965d1923c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-form__button--full",
+      "targets": [
+        ["css=.restaurants-search-form__button--full", "css:finder"],
+        ["xpath=//form[@id='delivery-information-postal-index-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0705df4-88cf-4946-b167-ccfa87ba01c5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.filters-text",
+      "targets": [
+        ["css=.filters-text", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26fdff85-c528-4dc0-88a7-99e6f817909f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.filters-text",
+      "targets": [
+        ["css=.filters-text", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b904dc2a-c4ac-42dc-bab5-cad3e368d5c5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(2) img",
+      "targets": [
+        ["css=li:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Cricket Deals']", "xpath:img"],
+        ["xpath=//section[@id='campaign-carousel-react-root']/div/div[2]/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44e65c36-b9ea-4d80-ad38-c74de61b6455",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(2) img",
+      "targets": [
+        ["css=li:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Cricket Deals']", "xpath:img"],
+        ["xpath=//section[@id='campaign-carousel-react-root']/div/div[2]/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1883e8ed-253f-4a41-9e18-599c47b8349a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,957)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1d8e151-1588-4898-a07d-4ecbbe400081",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search",
+      "targets": [
+        ["css=.restaurants-search", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div", "xpath:idRelative"],
+        ["xpath=//aside/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa4ed7a4-5933-47f8-aeb7-f36b6c1b2bb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-autocomplete-item:nth-child(2) .f-14",
+      "targets": [
+        ["css=.search-autocomplete-item:nth-child(2) .f-14", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div[2]/li/button/p", "xpath:idRelative"],
+        ["xpath=//li/button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'dominos pizza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33e429f2-de80-4623-964a-37bc686221e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vendor-tile-wrapper:nth-child(1) .vendor-picture",
+      "targets": [
+        ["css=.vendor-tile-wrapper:nth-child(1) .vendor-picture", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[3]/section/ul/li/a/figure/div/picture/div", "xpath:idRelative"],
+        ["xpath=//picture/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1745ee01-b6cd-409b-ae71-9cdd05351446",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,633)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ca2fdc5-4116-49a7-aa86-d57509453b20",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7dd39f1-70c9-4988-9711-a8f3a92dc987",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "942c93e8-102a-40c2-9edf-e1d988702341",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(6)",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/ul/li[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3334f32b-d1e1-4ed1-80c9-2d739f9ca4d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceb8e2f7-b386-4793-80db-8dd0f509ef8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6878afe5-ae16-4c94-8b28-9f04a348db59",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(2) > .product-button-overlay",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(2) > .product-button-overlay", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab78a0c0-8845-4ec5-9820-b6f01dba7d18",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Italian\\ Thin\\ Crust28603649-label > .radio-button",
+      "targets": [
+        ["css=#Italian\\ Thin\\ Crust28603649-label > .radio-button", "css:finder"],
+        ["xpath=//label[@id='Italian Thin Crust28603649-label']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60d96ee5-537e-4d29-9526-a5cd2765748e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Tex\\ -\\ Mex\\ Chicken28603650-label > .radio-button",
+      "targets": [
+        ["css=#Tex\\ -\\ Mex\\ Chicken28603650-label > .radio-button", "css:finder"],
+        ["xpath=//label[@id='Tex - Mex Chicken28603650-label']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "895da8de-bfb3-406f-9ff0-926231ccdc58",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Italian\\ Thin\\ Crust28603649-label .box-flex > span",
+      "targets": [
+        ["css=#Italian\\ Thin\\ Crust28603649-label .box-flex > span", "css:finder"],
+        ["xpath=//label[@id='Italian Thin Crust28603649-label']/span[2]/span/span", "xpath:idRelative"],
+        ["xpath=//div[4]/label/span[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8bb1e26-4441-4725-9a52-0be2f585582e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sm\\3Aw-100",
+      "targets": [
+        ["css=.sm\\3Aw-100", "css:finder"],
+        ["xpath=//div[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f68c51d5-1295-45aa-b7fe-45e78c76a9fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-add-to-cart-button",
+      "targets": [
+        ["css=.product-add-to-cart-button", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a5e8066-2b7f-4add-9f3a-3a8337207c2c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,547)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "29c36f52-891f-4f08-bc8a-6f6712f457c2",
+    "name": "Go to CheckOut test",
+    "commands": [{
+      "id": "1693491f-a5fb-43b9-9a8d-b26f357fa3bd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbbbae99-3432-442b-b76c-badd734c2cb2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9b01f11-98ca-442e-8eb8-6663d69ce6f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-tip:nth-child(7) > img",
+      "targets": [
+        ["css=.has-tip:nth-child(7) > img", "css:finder"],
+        ["xpath=//img[@alt='Pakistan']", "xpath:img"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]/img", "xpath:idRelative"],
+        ["xpath=//a[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cf89a31-7cce-4113-96c9-fdd03860fc23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-form__button--full",
+      "targets": [
+        ["css=.restaurants-search-form__button--full", "css:finder"],
+        ["xpath=//form[@id='delivery-information-postal-index-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "130f32a5-3766-4637-9580-a719b14dbcc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search",
+      "targets": [
+        ["css=.restaurants-search", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div", "xpath:idRelative"],
+        ["xpath=//aside/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "075d0079-46f8-4ce5-98ba-f2efa5011c26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-autocomplete-item:nth-child(2) > .search-autocomplete-item-keyword",
+      "targets": [
+        ["css=.search-autocomplete-item:nth-child(2) > .search-autocomplete-item-keyword", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div[2]/li/button", "xpath:idRelative"],
+        ["xpath=//div[2]/li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'dominos pizza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cbb24a7-ffba-471b-ab42-0d3d6219a772",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vendor-tile-wrapper:nth-child(1) .vendor-picture",
+      "targets": [
+        ["css=.vendor-tile-wrapper:nth-child(1) .vendor-picture", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[3]/section/ul/li/a/figure/div/picture/div", "xpath:idRelative"],
+        ["xpath=//picture/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90f78d66-1262-49f7-a76c-af0eb5f7e9f3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,273)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f3c4861-3023-41d0-b9d1-2768aec0ad5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.full",
+      "targets": [
+        ["css=.full", "css:finder"],
+        ["xpath=//div[@id='cart']/div[2]/div[5]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[5]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3e8d999-1265-4081-91fc-3c210b98bf20",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,512)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff9eec10-15af-4ed8-a97a-a37a3268d110",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout__blocks",
+      "targets": [
+        ["css=.checkout__blocks", "css:finder"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e4f5eff6-77a3-4fb4-9c8e-8529eac2adae",
+    "name": "order summary test",
+    "commands": [{
+      "id": "a658ebc1-51ec-4c51-9643-690775f0477e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cafc9c7b-381a-4972-b816-2a83b0304325",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b14ef46-131d-4a4c-926e-36e0922c5c34",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.has-tip:nth-child(7) > img",
+      "targets": [
+        ["css=.has-tip:nth-child(7) > img", "css:finder"],
+        ["xpath=//img[@alt='Pakistan']", "xpath:img"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]/img", "xpath:idRelative"],
+        ["xpath=//a[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9f81b20-bb18-41c5-92f6-d87667b36e52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-tip:nth-child(7) > img",
+      "targets": [
+        ["css=.has-tip:nth-child(7) > img", "css:finder"],
+        ["xpath=//img[@alt='Pakistan']", "xpath:img"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]/img", "xpath:idRelative"],
+        ["xpath=//a[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37e2b774-5c37-4979-bbd5-a224ded1e6ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-form__button--full",
+      "targets": [
+        ["css=.restaurants-search-form__button--full", "css:finder"],
+        ["xpath=//form[@id='delivery-information-postal-index-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "944af37e-243b-4b09-982a-de196a3212b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-input",
+      "targets": [
+        ["css=.restaurants-search-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b722e0d-72be-49fb-af17-45cc18d6442b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-autocomplete-item:nth-child(2) .f-14",
+      "targets": [
+        ["css=.search-autocomplete-item:nth-child(2) .f-14", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div[2]/li/button/p", "xpath:idRelative"],
+        ["xpath=//li/button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'dominos pizza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c6364e8-5685-4593-89d8-8e82199e50d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vendor-tile-wrapper:nth-child(1) .vendor-picture",
+      "targets": [
+        ["css=.vendor-tile-wrapper:nth-child(1) .vendor-picture", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[3]/section/ul/li/a/figure/div/picture/div", "xpath:idRelative"],
+        ["xpath=//picture/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d135c8ca-f7f6-416c-be63-9979a87dc842",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.cart-summary-items--wrapper",
+      "targets": [
+        ["css=.cart-summary-items--wrapper", "css:finder"],
+        ["xpath=//div[@id='cart']/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": "344,64.625"
+    }, {
+      "id": "7a8d9edf-14fa-4257-a81b-386f0286d3cb",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.cart-summary-items--wrapper",
+      "targets": [
+        ["css=.cart-summary-items--wrapper", "css:finder"],
+        ["xpath=//div[@id='cart']/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": "344,64.625"
+    }, {
+      "id": "92781988-5975-4461-a1b4-a5143551c07d",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.cart-summary-items--wrapper",
+      "targets": [
+        ["css=.cart-summary-items--wrapper", "css:finder"],
+        ["xpath=//div[@id='cart']/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": "344,64.625"
+    }]
+  }, {
+    "id": "a6d224d7-1846-4314-b34f-db352d4c7c3b",
+    "name": "search Menu TEST",
+    "commands": [{
+      "id": "efd60de1-5e8e-495d-88b4-f03a908e0d44",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f8d3ec5-3597-41ed-8499-544a95c378a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24252575-400b-4d6a-b11a-c25ff28feb6f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.has-tip:nth-child(7) > img",
+      "targets": [
+        ["css=.has-tip:nth-child(7) > img", "css:finder"],
+        ["xpath=//img[@alt='Pakistan']", "xpath:img"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]/img", "xpath:idRelative"],
+        ["xpath=//a[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aa4959a-0ad0-484a-b737-8315b4090db9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-tip:nth-child(7) > img",
+      "targets": [
+        ["css=.has-tip:nth-child(7) > img", "css:finder"],
+        ["xpath=//img[@alt='Pakistan']", "xpath:img"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]/img", "xpath:idRelative"],
+        ["xpath=//a[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "452ac106-3c5c-4694-bdd3-d8042fe95c56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-form__button--full",
+      "targets": [
+        ["css=.restaurants-search-form__button--full", "css:finder"],
+        ["xpath=//form[@id='delivery-information-postal-index-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cc0a087-04ae-475c-a1d4-48f043362a87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-input",
+      "targets": [
+        ["css=.restaurants-search-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div/input", "xpath:idRelative"],
+        ["xpath=//aside/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14ae62a1-a0d0-4fe9-b08b-4a8f583a4dfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-autocomplete-item:nth-child(2) .f-14",
+      "targets": [
+        ["css=.search-autocomplete-item:nth-child(2) .f-14", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div[2]/li/button/p", "xpath:idRelative"],
+        ["xpath=//li/button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'dominos pizza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8304e5c-442d-416d-a837-601afec192d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vendor-tile-wrapper:nth-child(1) .vendor-picture",
+      "targets": [
+        ["css=.vendor-tile-wrapper:nth-child(1) .vendor-picture", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[3]/section/ul/li/a/figure/div/picture/div", "xpath:idRelative"],
+        ["xpath=//picture/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a1e4ead-bcab-40fc-8794-077d9be9ea39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-input__text-input",
+      "targets": [
+        ["css=.search-input__text-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='vendor-details-root']/main/div/div/section[3]/div/button/div/input", "xpath:idRelative"],
+        ["xpath=//button/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0118cd3c-d67b-4654-a495-00e75ba9dfff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-search",
+      "targets": [
+        ["css=.menu-search", "css:finder"],
+        ["xpath=//div[@id='vendor-details-root']/main/div/div/section[3]/div/button", "xpath:idRelative"],
+        ["xpath=//section[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c06db51-77f2-443e-b4dc-228a1051891f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-input__text-input",
+      "targets": [
+        ["css=.search-input__text-input", "css:finder"],
+        ["xpath=//input[@value='large pizza']", "xpath:attributes"],
+        ["xpath=//div[@id='vendor-details-root']/main/div/div/section[3]/div/button/div/input", "xpath:idRelative"],
+        ["xpath=//button/div/input", "xpath:position"]
+      ],
+      "value": "large pizza"
+    }, {
+      "id": "7a0219b8-9191-4508-b965-94674986e30a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.search-input__text-input",
+      "targets": [
+        ["css=.search-input__text-input", "css:finder"],
+        ["xpath=//input[@value='large pizza']", "xpath:attributes"],
+        ["xpath=//div[@id='vendor-details-root']/main/div/div/section[3]/div/button/div/input", "xpath:idRelative"],
+        ["xpath=//button/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "eef3e77c-d04a-4488-a14d-f0647118721d",
+    "name": "enter food order details ",
+    "commands": [{
+      "id": "a59a78cb-7bb5-4016-b0fb-6d7a85d733b6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39059511-42bb-486e-ae00-8bdbb8dd1066",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c79e26e-b350-405d-9c8a-3a8cc37117ec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.has-tip:nth-child(7)",
+      "targets": [
+        ["css=.has-tip:nth-child(7)", "css:finder"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.foodpanda.pk/')])[2]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5092f015-e403-4158-959a-df5cdddaf858",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.has-tip:nth-child(7)",
+      "targets": [
+        ["css=.has-tip:nth-child(7)", "css:finder"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.foodpanda.pk/')])[2]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47a7ebf5-bd11-4297-be27-d0e0c6149aa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-tip:nth-child(7) > img",
+      "targets": [
+        ["css=.has-tip:nth-child(7) > img", "css:finder"],
+        ["xpath=//img[@alt='Pakistan']", "xpath:img"],
+        ["xpath=//body[@id='page-top']/header/div/div[2]/div/a[7]/img", "xpath:idRelative"],
+        ["xpath=//a[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10b613d6-c90e-40b7-aae8-a6be9cfa03ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search-form__button--full",
+      "targets": [
+        ["css=.restaurants-search-form__button--full", "css:finder"],
+        ["xpath=//form[@id='delivery-information-postal-index-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8365d27-97f4-4cb9-adaf-833a094fa4a1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.filters-text",
+      "targets": [
+        ["css=.filters-text", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41717a72-ebae-41b8-8018-56520e266b2a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.filters-text",
+      "targets": [
+        ["css=.filters-text", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b2f4edf-d41a-4483-a548-87ae83def0c4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(2) img",
+      "targets": [
+        ["css=li:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Cricket Deals']", "xpath:img"],
+        ["xpath=//section[@id='campaign-carousel-react-root']/div/div[2]/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c435d2c-8dab-4c4d-8a59-07706c76bc49",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(2) img",
+      "targets": [
+        ["css=li:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Cricket Deals']", "xpath:img"],
+        ["xpath=//section[@id='campaign-carousel-react-root']/div/div[2]/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69734aa7-123f-4ec5-947b-179c7449a522",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,957)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6554f604-8ec6-4b6c-a24e-b2a8df491bf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.restaurants-search",
+      "targets": [
+        ["css=.restaurants-search", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div", "xpath:idRelative"],
+        ["xpath=//aside/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "551d8a78-7d4d-4d61-944c-a023476c0dc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-autocomplete-item:nth-child(2) .f-14",
+      "targets": [
+        ["css=.search-autocomplete-item:nth-child(2) .f-14", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[2]/div/aside/div/div[2]/li/button/p", "xpath:idRelative"],
+        ["xpath=//li/button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'dominos pizza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f97b853-ee21-4bfd-b63c-b81d3e1a9c6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vendor-tile-wrapper:nth-child(1) .vendor-picture",
+      "targets": [
+        ["css=.vendor-tile-wrapper:nth-child(1) .vendor-picture", "css:finder"],
+        ["xpath=//div[@id='restaurant-listing-root']/div/div[3]/div/main/div[3]/section/ul/li/a/figure/div/picture/div", "xpath:idRelative"],
+        ["xpath=//picture/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd0f0633-73fa-4f56-8ed7-c43dea29494b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,633)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ba28f02-9461-4996-b763-eba3b88ea9af",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a08ab297-21af-404e-9a97-7b2f16b4eccb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aa26575-f1f4-4e4b-97dd-7c8b0a9fa79c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(6)",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//section[4]/div/div/ul/li[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b94ef539-8dfd-489d-8b1f-a7072c271901",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afc8e135-f20a-4657-a287-3f56c087b726",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(6) > .product-button-overlay", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[6]/button", "xpath:idRelative"],
+        ["xpath=//li[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de148928-1547-43f1-ac5e-d1291edbfe69",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu__category-id-0 .dish-card:nth-child(2) > .product-button-overlay",
+      "targets": [
+        ["css=#menu__category-id-0 .dish-card:nth-child(2) > .product-button-overlay", "css:finder"],
+        ["xpath=//div[@id='menu__category-id-0']/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ef7f94f-461b-471f-8dcf-a05b8fe0fac7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Italian\\ Thin\\ Crust28603649-label > .radio-button",
+      "targets": [
+        ["css=#Italian\\ Thin\\ Crust28603649-label > .radio-button", "css:finder"],
+        ["xpath=//label[@id='Italian Thin Crust28603649-label']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e80351b4-4909-4ddf-a357-4979b80ef306",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Tex\\ -\\ Mex\\ Chicken28603650-label > .radio-button",
+      "targets": [
+        ["css=#Tex\\ -\\ Mex\\ Chicken28603650-label > .radio-button", "css:finder"],
+        ["xpath=//label[@id='Tex - Mex Chicken28603650-label']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e832495c-648d-46db-bcb0-b4c407a3051f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Italian\\ Thin\\ Crust28603649-label .box-flex > span",
+      "targets": [
+        ["css=#Italian\\ Thin\\ Crust28603649-label .box-flex > span", "css:finder"],
+        ["xpath=//label[@id='Italian Thin Crust28603649-label']/span[2]/span/span", "xpath:idRelative"],
+        ["xpath=//div[4]/label/span[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da839dae-97f7-46fd-bc9c-0e617cd18963",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sm\\3Aw-100",
+      "targets": [
+        ["css=.sm\\3Aw-100", "css:finder"],
+        ["xpath=//div[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87973551-23f5-4784-a023-5230273f8016",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-add-to-cart-button",
+      "targets": [
+        ["css=.product-add-to-cart-button", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "321a4cac-4aca-4895-8340-dc2cee3c9902",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,547)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "89d83a8b-f411-4662-8587-23c77fb43cfa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "903eb2df-5c04-4749-a25b-fbd873c692bf",
+    "name": "FoodPanda Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["26d6e456-ccd5-4958-82fc-a6f8bb32db38", "74ba4a90-8285-4ef0-8a9e-c0c6cd4487ce", "a6d224d7-1846-4314-b34f-db352d4c7c3b", "d044dc7c-a2b6-43bb-8d81-dc3e8e814618", "b093c8c1-d860-4866-99c4-e8faa54f3394", "b9d0d060-a39b-4e1a-b492-c3f701dbde10", "29c36f52-891f-4f08-bc8a-6f6712f457c2", "e4f5eff6-77a3-4fb4-9c8e-8529eac2adae"]
+  }],
+  "urls": ["https://www.foodpanda.com/"],
+  "plugins": []
+}
