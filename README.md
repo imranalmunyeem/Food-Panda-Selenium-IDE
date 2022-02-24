@@ -1,4 +1,4 @@
-# Project Name: Formy
+# Project Name: Food Panda
 
 # Project Description
 Food Delivery website
